@@ -1,3 +1,7 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
 header {
     background: linear-gradient(36deg, #326dda 16%, #1348C0 70%);
     display: flex;
