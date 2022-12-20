@@ -2,6 +2,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 header {
     background: linear-gradient(36deg, #326dda 16%, #1348C0 70%);
     display: flex;
@@ -28,16 +33,25 @@ a {
     color: #fff;
 }
 
+ section figure img {
+
+    text-align: center;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+    width: 700px;
+    height: 500px;
+
+}
 .container {
     display: flex;
     justify-content: center;
 }
-.imagens {
-    display: flex;
-    justify-content: center;
-    width: 500px;
-    height: 300px;
-    
+
+.border-image {
+    border-radius: 30px;
 }
 
 footer {
