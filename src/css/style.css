@@ -34,7 +34,6 @@ a {
 }
 
  section figure img {
-
     text-align: center;
     background-color: whitesmoke;
     border: 1px solid lightgray;
@@ -43,8 +42,8 @@ a {
     border-radius: 20px;
     width: 700px;
     height: 500px;
-
 }
+
 .container {
     display: flex;
     justify-content: center;
@@ -60,16 +59,13 @@ footer {
     flex-direction: column; */
 }
 
-section h4 {
+section h4, footer section ul {
     display: flex;
     justify-content: center;
     color: #fff;
-    border-bottom: 0.1px solid #FFFFFF;
-    border-top: 0.1px solid #FFFFFF;
-    margin-bottom: 10px;
+    border-top: 0.3px solid #FFFFFF;
+    padding: 10px;
 }
-
-
 
 section ul {
     display: flex; 
@@ -77,13 +73,14 @@ section ul {
 }
 
 .logo-prefeitura-recife{
-width: 267px;
-height: 71px;
+max-width: 267px;
+max-height: 45px;
+width: auto;
+height: auto;
 padding: 0;
 margin: 0;
 }
 
 .social-media-image {
-   font-size: 61px;
-   
+   font-size: 40px;
 }
