@@ -33,12 +33,12 @@ a {
     color: #fff;
 }
 
- section figure img {
+ section figure img, section iframe {
     text-align: center;
     background-color: whitesmoke;
     border: 1px solid lightgray;
     padding: 20px;
-    margin: 30px;
+    margin: 10px;
     border-radius: 20px;
     width: 700px;
     height: 500px;
@@ -49,14 +49,19 @@ a {
     justify-content: center;
 }
 
-.border-image {
+.border-image, section iframe{
     border-radius: 30px;
+}
+
+figcaption {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight:bold;
+
 }
 
 footer {
     background: linear-gradient(36deg, #326dda 16%, #1348C0 70%);
-    /* display: flex;
-    flex-direction: column; */
 }
 
 section h4, footer section ul {
