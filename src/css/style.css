@@ -56,23 +56,34 @@ a {
 
 footer {
     background: linear-gradient(36deg, #326dda 16%, #1348C0 70%);
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 section h4 {
     display: flex;
     justify-content: center;
     color: #fff;
+    border-bottom: 0.1px solid #FFFFFF;
+    border-top: 0.1px solid #FFFFFF;
+    margin-bottom: 10px;
 }
 
-contact {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+
 
 section ul {
-    display: flex;
+    display: flex; 
     justify-content: center;
+}
+
+.logo-prefeitura-recife{
+width: 267px;
+height: 71px;
+padding: 0;
+margin: 0;
+}
+
+.social-media-image {
+   font-size: 61px;
+   
 }
